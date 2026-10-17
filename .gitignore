@@ -1,0 +1,37 @@
+# private evaluation data (copyrighted sentences) — never commit
+eval/private/
+work/
+# build products of apertium-uzb/
+apertium-uzb/.deps/
+apertium-uzb/Makefile
+apertium-uzb/Makefile.in
+apertium-uzb/aclocal.m4
+apertium-uzb/autom4te.cache/
+apertium-uzb/config.*
+apertium-uzb/configure
+apertium-uzb/configure~
+apertium-uzb/install-sh
+apertium-uzb/missing
+apertium-uzb/INSTALL
+apertium-uzb/modes/
+apertium-uzb/*.mode
+apertium-uzb/*.bin
+apertium-uzb/*.att.gz
+apertium-uzb/*.hfst
+apertium-uzb/apertium-uzb.pc
+# python
+__pycache__/
+*.egg-info/
+build/
+dist/
+.venv/
+# outputs of the research tools (run from a work/ layout; see tools/README.md)
+gencheck.json
+*_status.pkl
+*.done
+*.ok
+tools/**/*.json
+tools/**/*.tsv
+tools/**/*.pkl
+tools/**/*.txt
+/results/

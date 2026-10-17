@@ -1,0 +1,13 @@
+{
+ "added_lines": 7556,
+ "removed_lines": 3093,
+ "added_by_kind": {
+  "comment": 3048,
+  "entry_or_rule": 4434,
+  "blank": 74
+ },
+ "removed_by_kind": {
+  "entry_or_rule": 3093
+ },
+ "note": "entry_or_rule = non-blank, non-comment added lines (new or edited lexicon entries and continuation-class lines); an edited upstream line counts once as removed and once as added."
+}

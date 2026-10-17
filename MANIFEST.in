@@ -1,0 +1,9 @@
+# sdist = full Corresponding Source (GPL-3.0 section 6) plus docs, tests, eval and tools
+include README.md LICENSE AUTHORS CHANGES.md BUGS_UPSTREAM.md CITATION.cff REVIEW.md
+graft apertium-uzb
+graft uzmorph/data
+graft tests
+graft eval
+prune eval/private
+graft tools
+global-exclude __pycache__ *.py[co]

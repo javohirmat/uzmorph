@@ -1,0 +1,119 @@
+! MODIFIED VERSION (uzmorph 0.9.0, 2026-10-17): changed from apertium-uzb commit 00522e3 (2025-05-16).
+! Changes are marked in comments (R*, F*, G*, H*, P*, v4..v8, v5 G1) and listed in ../CHANGES.md. SPDX-License-Identifier: GPL-3.0-only (see COPYING).
+Alphabet
+ A B C D E F G H I J K L M N O P Q R S T U V W Y Z X
+ a b c d e f g h i j k l m n o p q r s t u v w y z x
+ %0 1 2 3 4 5 6 7 8 9
+ %{K%}:k %{Q%}:q
+ %{G%}:g %{G%}:k %{G%}:q
+ %{D%}:d %{D%}:t
+ %{l%}:l %{L%}:l %{L%}:n %{M%}:m %{N%}:n ! Cns
+ %{I%}:i %{u%}:i ! Vow
+ %{U%}:u %{U%}:o a:0 i:0 ! test build R11
+ %{A%}:a 
+ %{E%}:a %{E%}:y
+ %{i%}:0 %{i%}:i
+ %{ʻ%}:0 %{ʻ%}:ʻ
+
+%{s%}:s %{s%}:0
+
+%{S%}:s %{K%}:k %{n%}:n 
+
+%{a%}:a
+%{ı%}:i %{ı%}:0 ! v5 F10
+%{й%}:y %{й%}:0
+
+
+ %[%+p3pl%]:0  %[%-coop%]:0
+
+ʻ 
+
+%>:0 %  ; 
+
+Sets
+
+Vow =     A E I O U 
+          a e i o u 
+          %{A%} %{I%} %{E%} %{u%} %{U%} ;
+          
+Cons = b c d f g h j k l m n p q r s t v z x y
+       B C D F G H J K L M N P Q R S T V Z X Y
+       %{D%} %{K%} %{Q%} %{G%} %{N%} %{L%} %{M%} %{S%} %{n%} ; ! %- ;
+
+Rules
+
+"{ı} (elidable stem vowel: bagʻir, ogʻiz) is dropped before a vowel-initial suffix (v5 F10)"
+%{ı%}:0 <=> _ :Cons %>: [ :0 ]* :Vow ;
+
+"{D} as t after p only before i: causative -tir-, progressive -yapti (test build R13: was every {D}, which gave *gaptagi*; nominal -da/-dagi/-dan never assimilate)"
+%{D%}:t <=> [ :p ]/[ :0 | %>: ]* _ i: ;
+
+"{s} is deleted following a consonant"
+%{s%}:0 <=> :Cons %>:/[ :0 | :ʻ ]* _ ;
+
+"{E} becomes y when following a vowel (test build R34: also across a deleted {й}, yeydi)"
+%{E%}:y <=> :Vow (%{й%}:0) %>: _ ;
+
+!"{K} becomes g when it is before a vowel"
+!%{K%}:g <=>  _ %>: (:0) :Vow ;
+
+!"{Q} becomes gʻ when it is before a vowel"
+!%{q%}:gʻ <=>  _ %>: (:0) :Vow ;
+
+"{i} is null after a vowel"
+%{i%}:0 <=> :Vow [ :0 - %{й%}: ]* _ ;
+            :Vow (%{й%}:0) %>: _ \[ :s :h ] ;
+
+"{a} is null after a vowel"
+%{a%}:0 <=> :Vow :0* _ ;
+
+"{й}:y before -ish, the passive -{i}{L} and the -(u)v vowel {U} (test build: yeyish, deyiladi, deyuvchi)"
+%{й%}:y <=> _ (%[%-coop%]:0) %>: [ %{i%}: [ :s :h | %{L%}: ] | %{U%}: ] ;
+        .#. [ y: | d: ] e: _ %>: %{E%}: .#. ; ! v4 F4 + v5 F8: ye+{E} = yeya, de+{E} = deya (not *yey, *dey)
+
+"{G} is k/q after {k/q}>"
+%{G%}:Cy <=> :Cx %>:/[ :0 - %>: ]* _ ;
+         where
+             Cx in ( k q )
+             Cy in ( k q )
+         matched ;
+
+"{G} is g everywhere but after k/q"
+%{G%}:g <=> _ ;
+        except
+            [ :k | :q ] %>:/[ :0 - %>: ]* _ ;
+
+"intervocalic stem-final k & q voice before vowels, but only in N/Adj forms"
+Cx:g <=> :Vow _ %>: [ :0 - [ %>: | %{ʻ%}: ] ]* %{ʻ%}: [ :0 - [ %>: | %{ʻ%}: ] ]* :Vow ;
+     where Cx in ( k q ) ;
+
+!"intervocalic stem-final q voices before vowels, but only in N/Adj forms"
+!q:g <=> :Vow _ %>: [ :0 - [ %>: | %{ʻ%}: ] ]* %{ʻ%}: [ :0 - [ %>: | %{ʻ%}: ] ]* :Vow ;
+
+"{ʻ}:ʻ only when q:gʻ"
+%{ʻ%}:ʻ <=> :Vow q: %>: [ :0 - [ %>: | %{ʻ%}: ] ]* _ [ :0 - [ %>: | %{ʻ%}: ] ]* :Vow ;
+!%{ʻ%}:ʻ <=> _ ;
+!        except
+!            :Vow q: %>: [ :0 - [ %>: | %{ʻ%}: ] ]* _ [ :0 - [ %>: | %{ʻ%}: ] ]* :Vow ;
+
+!"Voicing assimilation of front G"
+!%{G%}:k <=> :k %>: _ ; ! "from "Учебник узбекского языка для стран СНГ" there only -k and -g endings transfer to k" !  should be only for k/q final words for now - will update if I find contrary examples.
+
+!"Voicing assimilation of front G"
+!%{G%}:q <=> :q %>: _ ; ! "from "Учебник узбекского языка для стран СНГ" there only -k and -g endings transfer to k" !  should be only for k/qfinal words for now - will update if I find contrary examples.
+
+!"{u} deletion"
+!%{u%}:0 <=> _ Cons: %>: (:0) :Vow ;
+
+!"{a} is null after a vowel"
+!%{a%}:0 <=> :Vow :0* _ ;
+
+"{L} as n in passive"
+%{L%}:n <=> [ :l :Vow ]/:0* _ ;
+
+"stem-final a and i are deleted before the -(u)v vowel {U} (test build R11: tanla+uv = tanlov, oʻqi+uvchi = oʻquvchi)"
+Vx:0 <=> _ %>: %{U%}: ;
+     where Vx in ( a i ) ;
+
+"{U} is o after a deleted stem-final a (test build R11)"
+%{U%}:o <=> a:0 %>: _ ;

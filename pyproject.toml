@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uzmorph"
+version = "0.9.0"
+description = "Uzbek morphological analyzer and generator: improved Apertium uzb transducer, guesser, proper-noun layer and corpus-trained reading ranker"
+readme = "README.md"
+license = {text = "GPL-3.0-only"}   # table form kept so that setuptools>=61 works; newer setuptools warns, harmlessly
+requires-python = ">=3.8"
+dependencies = []
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: GNU General Public License v3 (GPLv3)", "Natural Language :: Uzbek"]
+
+authors = [{name = "Javohir Matniyazov", email = "javohirmatniyazovv@gmail.com"}]
+
+[project.urls]
+Homepage = "https://github.com/javohirmat/uzmorph"
+Source = "https://github.com/javohirmat/uzmorph"
+Issues = "https://github.com/javohirmat/uzmorph/issues"
+
+[project.scripts]
+uzmorph = "uzmorph.cli:main"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools]
+packages = ["uzmorph"]
+
+[tool.setuptools.package-data]
+uzmorph = ["data/*"]

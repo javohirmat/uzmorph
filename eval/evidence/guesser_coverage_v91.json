@@ -1,0 +1,48 @@
+{
+ "tag": "v91",
+ "unknown_types": 3035111,
+ "dictionary": {
+  "raw": {
+   "all": 89.328,
+   "clean": 92.098,
+   "all_nomist": 88.11,
+   "clean_nomist": 91.957
+  },
+  "anchored": {
+   "all": 90.69,
+   "clean": 91.67,
+   "all_nomist": 89.57,
+   "clean_nomist": 91.56
+  }
+ },
+ "confident": {
+  "types": 1114742,
+  "raw": {
+   "all": 93.437,
+   "clean": 96.663,
+   "all_nomist": 92.219,
+   "clean_nomist": 96.522
+  },
+  "anchored": {
+   "all": 94.8,
+   "clean": 96.24,
+   "all_nomist": 93.68,
+   "clean_nomist": 96.12
+  }
+ },
+ "all_guesses": {
+  "types": 1820682,
+  "raw": {
+   "all": 94.524,
+   "clean": 97.806,
+   "all_nomist": 93.305,
+   "clean_nomist": 97.664
+  },
+  "anchored": {
+   "all": 95.88,
+   "clean": 97.38,
+   "all_nomist": 94.77,
+   "clean_nomist": 97.26
+  }
+ }
+}

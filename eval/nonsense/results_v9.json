@@ -1,0 +1,101 @@
+{
+ "ALL": {
+  "v8d": 2,
+  "v8d+guess": 50,
+  "v9": 2,
+  "v9+guess": 50,
+  "v9 Capitalised: analyzer + verified name list": 4,
+  "v9 Capitalised mid-sentence: + name guesser": 299,
+  "n": 299
+ },
+ "typo_swap": {
+  "v8d": 0,
+  "v8d+guess": 1,
+  "v9": 0,
+  "v9+guess": 1,
+  "v9 Capitalised: analyzer + verified name list": 1,
+  "v9 Capitalised mid-sentence: + name guesser": 30,
+  "n": 30
+ },
+ "typo_drop": {
+  "v8d": 1,
+  "v8d+guess": 4,
+  "v9": 1,
+  "v9+guess": 4,
+  "v9 Capitalised: analyzer + verified name list": 1,
+  "v9 Capitalised mid-sentence: + name guesser": 30,
+  "n": 30
+ },
+ "typo_subst": {
+  "v8d": 0,
+  "v8d+guess": 2,
+  "v9": 0,
+  "v9+guess": 2,
+  "v9 Capitalised: analyzer + verified name list": 0,
+  "v9 Capitalised mid-sentence: + name guesser": 30,
+  "n": 30
+ },
+ "case_before_pl": {
+  "v8d": 0,
+  "v8d+guess": 0,
+  "v9": 0,
+  "v9+guess": 0,
+  "v9 Capitalised: analyzer + verified name list": 0,
+  "v9 Capitalised mid-sentence: + name guesser": 30,
+  "n": 30
+ },
+ "case_before_poss": {
+  "v8d": 0,
+  "v8d+guess": 0,
+  "v9": 0,
+  "v9+guess": 0,
+  "v9 Capitalised: analyzer + verified name list": 0,
+  "v9 Capitalised mid-sentence: + name guesser": 30,
+  "n": 30
+ },
+ "double_case": {
+  "v8d": 0,
+  "v8d+guess": 1,
+  "v9": 0,
+  "v9+guess": 1,
+  "v9 Capitalised: analyzer + verified name list": 0,
+  "v9 Capitalised mid-sentence: + name guesser": 30,
+  "n": 30
+ },
+ "wrong_px3_allomorph": {
+  "v8d": 0,
+  "v8d+guess": 0,
+  "v9": 0,
+  "v9+guess": 0,
+  "v9 Capitalised: analyzer + verified name list": 0,
+  "v9 Capitalised mid-sentence: + name guesser": 30,
+  "n": 30
+ },
+ "verb_stem+case": {
+  "v8d": 1,
+  "v8d+guess": 26,
+  "v9": 1,
+  "v9+guess": 26,
+  "v9 Capitalised: analyzer + verified name list": 2,
+  "v9 Capitalised mid-sentence: + name guesser": 30,
+  "n": 30
+ },
+ "noun+verb_tense": {
+  "v8d": 0,
+  "v8d+guess": 7,
+  "v9": 0,
+  "v9+guess": 7,
+  "v9 Capitalised: analyzer + verified name list": 0,
+  "v9 Capitalised mid-sentence: + name guesser": 29,
+  "n": 29
+ },
+ "tense_before_neg": {
+  "v8d": 0,
+  "v8d+guess": 9,
+  "v9": 0,
+  "v9+guess": 9,
+  "v9 Capitalised: analyzer + verified name list": 0,
+  "v9 Capitalised mid-sentence: + name guesser": 30,
+  "n": 30
+ }
+}

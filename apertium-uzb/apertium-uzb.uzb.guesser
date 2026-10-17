@@ -1,0 +1,7 @@
+! MODIFIED VERSION (uzmorph 0.9.0, 2026-10-17): changed from apertium-uzb commit 00522e3 (2025-05-16).
+! Stem pattern rewritten (letter class with ʻ/ʼ, >=3 letters, at least one vowel); see ../CHANGES.md. SPDX-License-Identifier: GPL-3.0-only (see COPYING).
+define L [ a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | x | y | z | "ʻ" | "ʼ" ] ;
+define V [ a | e | i | o | u ] ;
+define Stem [ L* V L* ] & [ L L L L* ] & ~[ ["ʻ"|"ʼ"] ?* ] & ~$[ \[o|g] "ʻ" ] & ~$[ "ʼ" "ʼ" ] ;
+
+regex Stem ;

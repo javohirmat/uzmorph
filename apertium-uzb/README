@@ -1,0 +1,96 @@
+Uzbek (`apertium-uzb`)
+===============================================================================
+
+This is an Apertium monolingual language package for Uzbek. What
+you can use this language package for:
+
+* Morphological analysis of Uzbek
+* Morphological generation of Uzbek
+* Part-of-speech tagging of Uzbek
+
+Requirements
+===============================================================================
+
+You will need the following software installed:
+
+* lttoolbox (>= 3.3.0)
+* apertium (>= 3.3.0)
+* vislcg3 (>= 0.9.9.10297)
+
+If this does not make any sense, we recommend you look at: apertium.org
+
+Compiling
+===============================================================================
+
+Given the requirements being installed, you should be able to just run:
+
+```
+$ ./configure
+$ make
+```
+
+You can use `./autogen.sh` instead of `./configure` if you're compiling
+from GitHub.
+
+If you're doing development, you don't have to install the data, you
+can use it directly from this directory.
+
+If you are installing this language package as a prerequisite for an
+Apertium translation pair, then do (typically as root / with sudo):
+
+```
+# make install
+```
+
+You can give a `--prefix` to `./configure` to install as a non-root user,
+but make sure to use the same prefix when installing the translation
+pair and any other language packages.
+
+Testing
+===============================================================================
+
+If you are in the source directory after running make, the following
+commands should work:
+
+* Morphological analysis:
+
+      $ echo "Bilim barchamizga baxt keltiradi" | apertium -d . uzb-morph
+      ^Bilim/bilim<n><attr>/bilim<n><nom>$ ^barchamizga/barcha<prn><coll><px1pl><dat>$ ^baxt/baxt<n><attr>/baxt<n><nom>$ ^keltiradi/keltir<v><tv><aor><p3><sg>$^./.<sent>$
+
+* Tagging (analysis + disambiguation):
+
+      $ echo "Bilim barchamizga baxt keltiradi" | apertium -d . uzb-tagger
+      ^Bilim/bilim<n><nom>$ ^barchamizga/barcha<prn><coll><px1pl><dat>$ ^baxt/baxt<n><nom>$ ^keltiradi/keltir<v><tv><aor><p3><sg>$^./.<sent>$
+
+* Morphological generation:
+
+      $ echo "^Bilim<n><nom>$ ^barcha<prn><coll><px1pl><dat>$ ^baxt<n><nom>$ ^keltir<v><tv><aor><p3><sg>$^.<sent>$" | apertium -f none  -d . uzb-gener
+      Bilim barchamizga baxt keltiradi.
+
+
+Files and data
+===============================================================================
+
+* `apertium-uzb.uzb.dix`            - Monolingual dictionary
+* `uzb.prob`                        - Tagger model
+* `apertium-uzb.uzb.rlx`            - Constraint Grammar disambiguation rules
+* `apertium-uzb.post-uzb.dix`       - Post-generator
+* `modes.xml`                       - Translation modes
+
+For more information
+===============================================================================
+
+* https://wiki.apertium.org/wiki/Installation
+* https://wiki.apertium.org/wiki/apertium-uzb
+* https://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
+
+Help and support
+===============================================================================
+
+If you need help using this language pair or data, you can contact:
+
+* Mailing list: apertium-stuff@lists.sourceforge.net
+* IRC: `#apertium` on `irc.oftc.net`
+
+See also the file AUTHORS included in this distribution.
+

@@ -1,0 +1,45 @@
+{
+ "v8d": {
+  "generated": 462,
+  "multi_output": 462,
+  "ish_outside_p3pl": 275,
+  "examples": [
+   [
+    "oʻqi<v><tv><prog><p1><sg>",
+    "oʻqiyapman/oʻqishyapman"
+   ],
+   [
+    "oʻqi<v><tv><prog><p2><sg>",
+    "oʻqiyapsan/oʻqishyapsan"
+   ],
+   [
+    "oʻqi<v><tv><prog><p3><sg>",
+    "oʻqiyapti/oʻqishyapti"
+   ],
+   [
+    "oʻqi<v><tv><prog><p1><pl>",
+    "oʻqiyapmiz/oʻqishyapmiz"
+   ],
+   [
+    "oʻqi<v><tv><prog><p2><pl>",
+    "oʻqiyapsilar/oʻqishyapsilar"
+   ],
+   [
+    "oʻqi<v><tv><aor><p1><sg>",
+    "oʻqiyman/oʻqishaman"
+   ]
+  ]
+ },
+ "v9": {
+  "generated": 462,
+  "multi_output": 0,
+  "ish_outside_p3pl": 0,
+  "examples": []
+ },
+ "v9.1": {
+  "generated": 462,
+  "multi_output": 0,
+  "ish_outside_p3pl": 0,
+  "examples": []
+ }
+}

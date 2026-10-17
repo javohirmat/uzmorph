@@ -1,0 +1,7 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+srcdir=@datarootdir@/apertium/apertium-uzb
+
+Name: apertium-uzb
+Description: Finite-state morphological transducer and constraint grammar for Uzbek
+Version: @VERSION@

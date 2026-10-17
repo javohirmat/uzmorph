@@ -1,0 +1,242 @@
+[
+ [
+  "CG -1 + guesser (baseline)",
+  1062,
+  {
+   "lemma": 91.4,
+   "upos": 79.3,
+   "coarse": 90.7,
+   "feats": 84.5,
+   "lf": 83.4,
+   "full": 82.3
+  }
+ ],
+ [
+  "corpus EM prior only (replaces CG)",
+  1062,
+  {
+   "lemma": 94.0,
+   "upos": 78.8,
+   "coarse": 91.3,
+   "feats": 83.2,
+   "lf": 82.8,
+   "full": 80.4
+  }
+ ],
+ [
+  "+ singular default",
+  1062,
+  {
+   "lemma": 94.0,
+   "upos": 78.8,
+   "coarse": 91.3,
+   "feats": 87.7,
+   "lf": 87.2,
+   "full": 84.8
+  }
+ ],
+ [
+  "+ real lemma beats short lemma+px1/2sg",
+  1062,
+  {
+   "lemma": 94.0,
+   "upos": 78.8,
+   "coarse": 91.3,
+   "feats": 87.7,
+   "lf": 87.2,
+   "full": 84.8
+  }
+ ],
+ [
+  "+ demote medial imperatives",
+  1062,
+  {
+   "lemma": 94.0,
+   "upos": 78.9,
+   "coarse": 91.4,
+   "feats": 87.8,
+   "lf": 87.3,
+   "full": 84.9
+  }
+ ],
+ [
+  "+ duplicate-lemma rule (corpus paradigm size)",
+  1062,
+  {
+   "lemma": 94.2,
+   "upos": 80.6,
+   "coarse": 93.6,
+   "feats": 89.9,
+   "lf": 89.3,
+   "full": 87.8
+  }
+ ],
+ [
+  "+ class-bigram context (\u03bb=1)",
+  1062,
+  {
+   "lemma": 94.3,
+   "upos": 80.8,
+   "coarse": 93.4,
+   "feats": 92.5,
+   "lf": 91.7,
+   "full": 89.9
+  }
+ ],
+ [
+  "+ proper-noun guesser & verified list = FINAL",
+  1062,
+  {
+   "lemma": 96.5,
+   "upos": 83.0,
+   "coarse": 95.8,
+   "feats": 94.8,
+   "lf": 94.1,
+   "full": 92.3
+  }
+ ],
+ [
+  "FINAL \u2212 singular default",
+  1062,
+  {
+   "lemma": 96.5,
+   "upos": 83.0,
+   "coarse": 95.8,
+   "feats": 88.2,
+   "lf": 87.5,
+   "full": 85.7
+  }
+ ],
+ [
+  "FINAL \u2212 real lemma",
+  1062,
+  {
+   "lemma": 96.0,
+   "upos": 83.0,
+   "coarse": 95.6,
+   "feats": 94.4,
+   "lf": 93.6,
+   "full": 92.1
+  }
+ ],
+ [
+  "FINAL \u2212 medial imperative",
+  1062,
+  {
+   "lemma": 96.5,
+   "upos": 82.9,
+   "coarse": 95.7,
+   "feats": 94.7,
+   "lf": 94.0,
+   "full": 92.2
+  }
+ ],
+ [
+  "FINAL \u2212 duplicate lemma",
+  1062,
+  {
+   "lemma": 96.2,
+   "upos": 81.2,
+   "coarse": 93.8,
+   "feats": 92.5,
+   "lf": 91.9,
+   "full": 89.5
+  }
+ ],
+ [
+  "FINAL \u2212 context",
+  1062,
+  {
+   "lemma": 96.4,
+   "upos": 82.8,
+   "coarse": 96.0,
+   "feats": 92.3,
+   "lf": 91.6,
+   "full": 90.1
+  }
+ ],
+ [
+  "FINAL \u2212 names",
+  1062,
+  {
+   "lemma": 94.3,
+   "upos": 80.8,
+   "coarse": 93.4,
+   "feats": 92.5,
+   "lf": 91.7,
+   "full": 89.9
+  }
+ ],
+ [
+  "FINAL with \u03bb=0.5",
+  1062,
+  {
+   "lemma": 96.4,
+   "upos": 82.7,
+   "coarse": 95.9,
+   "feats": 94.4,
+   "lf": 93.7,
+   "full": 92.2
+  }
+ ],
+ [
+  "FINAL with \u03bb=1.5",
+  1062,
+  {
+   "lemma": 96.5,
+   "upos": 82.5,
+   "coarse": 95.3,
+   "feats": 94.5,
+   "lf": 93.7,
+   "full": 91.9
+  }
+ ],
+ [
+  "FINAL but HMM (Baum-Welch) context instead of bigram",
+  1062,
+  {
+   "lemma": 96.5,
+   "upos": 82.9,
+   "coarse": 96.0,
+   "feats": 94.4,
+   "lf": 93.7,
+   "full": 92.1
+  }
+ ],
+ [
+  "FINAL + tried: closed-class reading beats noun",
+  1062,
+  {
+   "lemma": 96.4,
+   "upos": 83.1,
+   "coarse": 96.0,
+   "feats": 94.7,
+   "lf": 94.0,
+   "full": 92.5
+  }
+ ],
+ [
+  "FINAL + tried: demote bare -gan verbal noun",
+  1062,
+  {
+   "lemma": 96.5,
+   "upos": 83.1,
+   "coarse": 95.9,
+   "feats": 93.8,
+   "lf": 93.0,
+   "full": 91.2
+  }
+ ],
+ [
+  "FINAL + tried: passive split over lexical -n/-l verb",
+  1062,
+  {
+   "lemma": 96.5,
+   "upos": 83.0,
+   "coarse": 95.8,
+   "feats": 94.8,
+   "lf": 94.1,
+   "full": 92.3
+  }
+ ]
+]

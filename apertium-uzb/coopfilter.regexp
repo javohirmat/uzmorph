@@ -1,0 +1,3 @@
+! MODIFIED VERSION (uzmorph 0.9.0, 2026-10-17): new file, not in apertium-uzb commit 00522e3 (2025-05-16).
+! Cooperative -ish- flag filter, composed onto the lexc output before twol (Makefile.am); see ../CHANGES.md. SPDX-License-Identifier: GPL-3.0-only (see COPYING).
+~[ $%[%-coop%] & ~$%[%+p3pl%] ] ;

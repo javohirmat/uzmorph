@@ -1,0 +1,17 @@
+{
+ "lower-case": {
+  "uzmorph dictionary": 2,
+  "+ confident guesser": 50,
+  "+ unfiltered guesser (tools/models/uzb_guess.py --all)": 268,
+  "Zirh, known stems": 44,
+  "Zirh, any segmentation (incl. unknown-stem guesses)": 253
+ },
+ "Capitalised": {
+  "uzmorph dictionary": 4,
+  "+ confident guesser": 38,
+  "+ unfiltered guesser (tools/models/uzb_guess.py --all)": 237,
+  "+ verified name list": 4,
+  "+ proper-noun guesser (mid-sentence)": 299
+ },
+ "n": 299
+}

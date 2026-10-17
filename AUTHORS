@@ -1,0 +1,8 @@
+apertium-uzb (the analyzer this work is based on): https://github.com/apertium/apertium-uzb at commit 00522e3
+  (2025-05-16); see apertium-uzb/AUTHORS
+  2013-2014 Francis M. Tyers, Kevin Brubeck Unhammer; 2013 Gianluca Grossi; 2014 Kantoro Erkulov, Tino Didriksen;
+  and the contributors listed in the apertium-uzb git history.
+
+uzmorph changes and Python layer (2026):
+  Javohir Matniyazov
+  (developed with AI coding assistants; native-speaker review of lexicon batches and of the evaluation set)

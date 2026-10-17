@@ -1,0 +1,115 @@
+
+Alphabet
+
+ !ء
+ !ئ ا ە ب پ ت ج چ خ د ر ز ژ س ش غ ف ق ك گ ڭ ل م ن ھ و ۇ ۆ ۋ ې ى ي  ٸ ٶ ٷ ٵ
+
+ !% ء
+
+ ! ء ا ە ه ې ب ت پ ج چ خ ح د ر ز ژ س ش ع ف ق ك گ ڭ ل م ن ھ و ۇ ۋ ى ي ۆ
+
+
+
+
+
+
+
+
+
+ A:А
+ B:Б
+ D:Д
+ E:Е
+ F:Ф
+ G:Г
+ Ğ:Ғ
+ H:Ҳ
+ I:И
+ J:Ж
+ K:К
+ L:Л
+ M:М
+ N:Н
+ O:О
+ Ö:Ў
+ P:П
+ R:Р
+ S:С
+ T:Т
+ U:У
+ V:В
+ X:Х
+ Y:Й
+ Z:З
+ Ş:Ш
+ Ç:Ч
+ Q:Қ
+ C:Ц
+
+  a:а
+  b:б
+  d:д
+  e:е
+  e:э
+  f:ф
+  g:г
+  ğ:ғ
+  h:ҳ
+  i:и
+  j:ж
+  k:к
+  l:л
+  m:м
+  n:н
+  o:о
+  ö:ў
+  p:п
+  r:р
+  s:с
+  t:т
+  c:ц
+  u:у
+  v:в
+  x:х
+  y:й
+  z:з
+  ş:ш
+  ç:ч
+  q:қ
+
+  ʻ:ъ
+
+%{й%}:й
+%{e%}:э
+%{c%}:ц
+%{s%}:ц
+%{ь%}:ь
+%{h%}:ҳ
+
+ ;
+
+
+Sets
+
+Vow = a e i o u ;
+
+Yot = я ё ю е ;
+
+Cons = b d f g ğ h j k l m n p r s t v x y z ş ç q c ;
+
+Rules
+
+"Yot letters"
+Vx:Vy <=> y: _ ;
+     where Vx in ( a o u e )
+           Vy in ( я ё ю е )
+     matched ;
+
+"And delete y"
+y:0 <=> _ :Yot ;
+
+"э at beginning of word"
+e:э <=> .#. _ ;
+
+"е not at beginning of word"
+e:е <=> [ Cons: - y: ] _ ;

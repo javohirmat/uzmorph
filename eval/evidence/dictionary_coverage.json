@@ -1,0 +1,80 @@
+{
+ "orig": {
+  "all": 86.151,
+  "clean": 88.634,
+  "all_nomist": 84.96,
+  "clean_nomist": 88.521
+ },
+ "tb": {
+  "all": 87.227,
+  "clean": 89.848,
+  "all_nomist": 86.036,
+  "clean_nomist": 89.735
+ },
+ "v4fix": {
+  "all": 87.228,
+  "clean": 89.847,
+  "all_nomist": 86.037,
+  "clean_nomist": 89.735
+ },
+ "v4lem": {
+  "all": 88.525,
+  "clean": 91.217,
+  "all_nomist": 87.333,
+  "clean_nomist": 91.104
+ },
+ "v5": {
+  "all": 88.932,
+  "clean": 91.671,
+  "all_nomist": 87.715,
+  "clean_nomist": 91.532
+ },
+ "v6": {
+  "all": 88.946,
+  "clean": 91.687,
+  "all_nomist": 87.727,
+  "clean_nomist": 91.546
+ },
+ "v6b": {
+  "all": 89.046,
+  "clean": 91.799,
+  "all_nomist": 87.828,
+  "clean_nomist": 91.658
+ },
+ "v7": {
+  "all": 89.109,
+  "clean": 91.87,
+  "all_nomist": 87.891,
+  "clean_nomist": 91.729
+ },
+ "v7b06": {
+  "all": 89.236,
+  "clean": 92.012,
+  "all_nomist": 88.018,
+  "clean_nomist": 91.87
+ },
+ "v8": {
+  "all": 89.265,
+  "clean": 92.044,
+  "all_nomist": 88.046,
+  "clean_nomist": 91.902
+ },
+ "v8d": {
+  "all": 89.291,
+  "clean": 92.073,
+  "all_nomist": 88.072,
+  "clean_nomist": 91.931
+ },
+ "v9": {
+  "all": 89.291,
+  "clean": 92.073,
+  "all_nomist": 88.072,
+  "clean_nomist": 91.931
+ },
+ "v91": {
+  "all": 89.328,
+  "clean": 92.098,
+  "all_nomist": 88.11,
+  "clean_nomist": 91.957
+ }
+}

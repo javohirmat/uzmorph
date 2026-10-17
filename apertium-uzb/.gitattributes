@@ -1,0 +1,29 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/apertium-uzb.pc.in -text
+/apertium-uzb.post-uzb.dix -text
+/apertium-uzb.uzb.guesser -text
+/apertium-uzb.uzb.lexc -text
+/apertium-uzb.uzb.rest -text
+/apertium-uzb.uzb.rlx -text
+/apertium-uzb.uzb.twol -text
+/autogen.sh -text
+/configure.ac -text
+dev/countstems.sh -text
+dev/editdist.py -text
+dev/spellrelax.twol -text
+/modes.xml -text
+speller/editdist.default.txt -text
+speller/index.xml -text
+speller/strings.default.txt -text
+speller/words.default.txt -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true

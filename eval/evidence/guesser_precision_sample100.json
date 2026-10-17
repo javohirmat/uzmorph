@@ -1,0 +1,816 @@
+{
+ "summary": {
+  "n": 100,
+  "strict": 57,
+  "lenient": 63,
+  "errors": {
+   "typo": 8,
+   "foreign": 7,
+   "fragment_or_unclear": 16,
+   "seg_error": 6
+  },
+  "note": "seed 4242 token-weighted sample from earlier confident set; 3 items no longer confident (ober, metilstirol, xusanov) replaced by seed-4243 token-weighted draws from the current confident set. Full rejudge of current top readings. strict = segmentation+tags right (names need np; x/h spelling variants accepted); lenient also accepts adj/participles/verbal forms tagged as n."
+ },
+ "items": [
+  {
+   "n": 1,
+   "word": "maʼromga",
+   "count": 38,
+   "top": "maʼrom<n><dat><guess>:2.2:17",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 2,
+   "word": "kunki",
+   "count": 1093,
+   "top": "kunk<n><px3sp><nom><guess>:-1.9:5",
+   "judgment": "wrong",
+   "category": "typo"
+  },
+  {
+   "n": 3,
+   "word": "tugrisida",
+   "count": 21149,
+   "top": "tugri<n><px3sp><loc><guess>:2.5:35",
+   "judgment": "wrong",
+   "category": "typo"
+  },
+  {
+   "n": 4,
+   "word": "giyohi",
+   "count": 1267,
+   "top": "giyoh<n><px3sp><nom><guess>:5.2:86",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 5,
+   "word": "hijolat",
+   "count": 1915,
+   "top": "hijolat<n><nom><guess>:5.9:18",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 6,
+   "word": "baxolash",
+   "count": 4471,
+   "top": "baxola<v><TD><ger_abst><nom><guess>:6.3:41",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 7,
+   "word": "parfenon",
+   "count": 681,
+   "top": "parfenon<np><nom><guess>:4.8:7",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 8,
+   "word": "megaron",
+   "count": 67,
+   "top": "megaron<n><nom><guess>:3.3:3",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 9,
+   "word": "formatlash",
+   "count": 5456,
+   "top": "formatla<v><TD><ger_abst><nom><guess>:6.2:33",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 11,
+   "word": "pustoy",
+   "count": 223,
+   "top": "pusto<v><TD><prc_impf><guess>:-4.3:2",
+   "judgment": "wrong",
+   "category": "foreign"
+  },
+  {
+   "n": 12,
+   "word": "yoqalab",
+   "count": 7114,
+   "top": "yoqala<v><TD><prc_perf><guess>:6.1:22",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 13,
+   "word": "index",
+   "count": 6721,
+   "top": "index<n><nom><guess>:-1.1:6",
+   "judgment": "wrong",
+   "category": "foreign"
+  },
+  {
+   "n": 14,
+   "word": "sentr",
+   "count": 6020,
+   "top": "sentr<n><nom><guess>:1.9:6",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 15,
+   "word": "yasovulboshi",
+   "count": 1746,
+   "top": "yasovulboshi<n><nom><guess>:6.4:13",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 16,
+   "word": "deganidir",
+   "count": 4963,
+   "top": "degan<n><px3sp><nom>+e<cop><aor><p3><frm><sg><guess>:-1.2:19",
+   "judgment": "lenient",
+   "category": null
+  },
+  {
+   "n": 17,
+   "word": "doʻn",
+   "count": 3217,
+   "top": "doʻn<n><nom><guess>:-1.5:9",
+   "judgment": "wrong",
+   "category": "fragment_or_unclear"
+  },
+  {
+   "n": 18,
+   "word": "topiboldiyev",
+   "count": 198,
+   "top": "topiboldiyev<np><nom><guess>:-1.4:3",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 19,
+   "word": "yoʻlboshchisiga",
+   "count": 229,
+   "top": "yoʻlboshchi<n><px3sp><dat><guess>:6.4:65",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 20,
+   "word": "buvijon",
+   "count": 3304,
+   "top": "buvijon<n><nom><guess>:7.3:43",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 21,
+   "word": "qorboʻron",
+   "count": 914,
+   "top": "qorboʻron<n><nom><guess>:5.6:11",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 22,
+   "word": "lamlining",
+   "count": 18,
+   "top": "lamli<np><gen><guess>:-1.1:3",
+   "judgment": "wrong",
+   "category": "fragment_or_unclear"
+  },
+  {
+   "n": 23,
+   "word": "moro",
+   "count": 1748,
+   "top": "moro<n><nom><guess>:2.3:13",
+   "judgment": "wrong",
+   "category": "fragment_or_unclear"
+  },
+  {
+   "n": 24,
+   "word": "seneka",
+   "count": 1936,
+   "top": "seneka<np><nom><guess>:4.1:7",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 25,
+   "word": "krivoship",
+   "count": 5067,
+   "top": "krivoship<n><nom><guess>:3.7:33",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 26,
+   "word": "kulti",
+   "count": 1750,
+   "top": "kult<n><px3sp><nom><guess>:2.3:33",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 27,
+   "word": "juan",
+   "count": 1561,
+   "top": "juan<np><nom><guess>:4.9:21",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 28,
+   "word": "boʻlurmiz",
+   "count": 1237,
+   "top": "boʻlur<n><nom>+e<cop><aor><p1><pl><guess>:-1.3:31",
+   "judgment": "lenient",
+   "category": null
+  },
+  {
+   "n": 29,
+   "word": "kuyindi",
+   "count": 1916,
+   "top": "kuyin<v><TD><ifi><p3><pl><guess>:5.1:140",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 30,
+   "word": "dokumenta",
+   "count": 2078,
+   "top": "dokument<v><TD><prc_impf><guess>:-4.7:5",
+   "judgment": "wrong",
+   "category": "foreign"
+  },
+  {
+   "n": 31,
+   "word": "boltiq",
+   "count": 5091,
+   "top": "boltiq<np><nom><guess>:4.3:8",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 32,
+   "word": "kolloksilin",
+   "count": 355,
+   "top": "kolloksilin<n><nom><guess>:4.6:8",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 33,
+   "word": "kerkegor",
+   "count": 720,
+   "top": "kerkegor<np><nom><guess>:4.1:5",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 34,
+   "word": "muhammedov",
+   "count": 943,
+   "top": "muhammedov<np><nom><guess>:3.5:8",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 36,
+   "word": "yopmasini",
+   "count": 152,
+   "top": "yopma<n><px3sp><acc><guess>:4.1:36",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 37,
+   "word": "qoshima",
+   "count": 751,
+   "top": "qoshi<v><TD><neg><imp><p2><sg><guess>:-1.3:12",
+   "judgment": "wrong",
+   "category": "typo"
+  },
+  {
+   "n": 38,
+   "word": "rossiyalik",
+   "count": 5107,
+   "top": "rossiyalik<n><nom><guess>:5.8:11",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 39,
+   "word": "oʻsok",
+   "count": 334,
+   "top": "oʻsok<n><nom><guess>:2.1:5",
+   "judgment": "wrong",
+   "category": "fragment_or_unclear"
+  },
+  {
+   "n": 40,
+   "word": "tortqichlarda",
+   "count": 19,
+   "top": "tortqich<n><pl><loc><guess>:2.5:31",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 41,
+   "word": "almashgich",
+   "count": 739,
+   "top": "almashgich<n><nom><guess>:5.7:21",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 42,
+   "word": "kitobchalarida",
+   "count": 16,
+   "top": "kitobcha<n><px3pl><loc><guess>:2.6:57",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 43,
+   "word": "vilyur",
+   "count": 29,
+   "top": "vilyu<v><TD><gpr_fut><guess>:-4.4:6",
+   "judgment": "wrong",
+   "category": "fragment_or_unclear"
+  },
+  {
+   "n": 44,
+   "word": "kamu",
+   "count": 147,
+   "top": "kamu<n><nom><guess>:-2.3:3",
+   "judgment": "wrong",
+   "category": "fragment_or_unclear"
+  },
+  {
+   "n": 45,
+   "word": "kapillarlarni",
+   "count": 58,
+   "top": "kapillar<n><pl><acc><guess>:2.0:29",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 46,
+   "word": "dahlsizligini",
+   "count": 232,
+   "top": "dahlsizlik<n><px3sp><acc><guess>:3.1:8",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 47,
+   "word": "salan",
+   "count": 808,
+   "top": "salan<n><nom><guess>:2.6:4",
+   "judgment": "wrong",
+   "category": "fragment_or_unclear"
+  },
+  {
+   "n": 48,
+   "word": "proteinuriya",
+   "count": 3393,
+   "top": "proteinuriya<n><nom><guess>:7.0:20",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 49,
+   "word": "kompyuterlashtirish",
+   "count": 3488,
+   "top": "kompyuterlashtir<v><TD><ger_abst><nom><guess>:5.0:15",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 50,
+   "word": "surtmalarning",
+   "count": 314,
+   "top": "surtma<n><pl><gen><guess>:3.6:42",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 51,
+   "word": "xududi",
+   "count": 1098,
+   "top": "xudud<n><px3sp><nom><guess>:2.9:42",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 52,
+   "word": "motoneyronning",
+   "count": 36,
+   "top": "motoneyron<n><gen><guess>:5.5:38",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 53,
+   "word": "oʻzoq",
+   "count": 3532,
+   "top": "oʻzoq<n><nom><guess>:4.2:7",
+   "judgment": "wrong",
+   "category": "typo"
+  },
+  {
+   "n": 54,
+   "word": "otsenki",
+   "count": 3018,
+   "top": "otsenk<n><px3sp><nom><guess>:-3.0:2",
+   "judgment": "wrong",
+   "category": "foreign"
+  },
+  {
+   "n": 55,
+   "word": "iymat",
+   "count": 163,
+   "top": "iymat<n><nom><guess>:6.1:26",
+   "judgment": "wrong",
+   "category": "fragment_or_unclear"
+  },
+  {
+   "n": 57,
+   "word": "fazaviy",
+   "count": 9520,
+   "top": "fazavi<v><TD><prc_impf><guess>:-0.8:19",
+   "judgment": "wrong",
+   "category": "seg_error"
+  },
+  {
+   "n": 58,
+   "word": "ixtisosliklar",
+   "count": 2051,
+   "top": "ixtisoslik<n><pl><nom><guess>:6.1:38",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 59,
+   "word": "degidrirlanish",
+   "count": 87,
+   "top": "degidrirlan<v><TD><ger_abst><nom><guess>:4.4:11",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 60,
+   "word": "graben",
+   "count": 536,
+   "top": "graben<n><nom><guess>:4.0:24",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 61,
+   "word": "murodov",
+   "count": 8336,
+   "top": "murodov<np><nom><guess>:3.7:12",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 62,
+   "word": "tashkent",
+   "count": 51446,
+   "top": "tashkent<np><nom><guess>:1.8:3",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 63,
+   "word": "ozroq",
+   "count": 23708,
+   "top": "ozroq<n><nom><guess>:5.4:16",
+   "judgment": "wrong",
+   "category": "seg_error"
+  },
+  {
+   "n": 64,
+   "word": "sional",
+   "count": 475,
+   "top": "sional<n><nom><guess>:2.4:4",
+   "judgment": "wrong",
+   "category": "fragment_or_unclear"
+  },
+  {
+   "n": 65,
+   "word": "idioadaptatsiya",
+   "count": 364,
+   "top": "idioadaptatsiya<n><nom><guess>:5.4:7",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 66,
+   "word": "insti",
+   "count": 412,
+   "top": "inst<n><px3sp><nom><guess>:3.1:15",
+   "judgment": "wrong",
+   "category": "fragment_or_unclear"
+  },
+  {
+   "n": 67,
+   "word": "emirila",
+   "count": 82,
+   "top": "emiril<v><TD><prc_impf><guess>:4.8:56",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 68,
+   "word": "xolin",
+   "count": 2940,
+   "top": "xolin<n><nom><guess>:4.6:13",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 69,
+   "word": "neytraliteti",
+   "count": 65,
+   "top": "neytralitet<n><px3sp><nom><guess>:2.3:7",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 70,
+   "word": "glavnim",
+   "count": 713,
+   "top": "glavni<n><px1sg><nom><guess>:-4.2:3",
+   "judgment": "wrong",
+   "category": "foreign"
+  },
+  {
+   "n": 71,
+   "word": "yonginasida",
+   "count": 3627,
+   "top": "yongina<n><px3sp><loc><guess>:4.8:38",
+   "judgment": "lenient",
+   "category": null
+  },
+  {
+   "n": 72,
+   "word": "president",
+   "count": 1046,
+   "top": "president<n><nom><guess>:1.9:3",
+   "judgment": "wrong",
+   "category": "foreign"
+  },
+  {
+   "n": 73,
+   "word": "toshdu",
+   "count": 3101,
+   "top": "toshdu<np><nom><guess>:-0.2:6",
+   "judgment": "wrong",
+   "category": "fragment_or_unclear"
+  },
+  {
+   "n": 74,
+   "word": "leykostitlar",
+   "count": 75,
+   "top": "leykostit<n><pl><nom><guess>:1.9:6",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 75,
+   "word": "oʻxshabmi",
+   "count": 56,
+   "top": "oʻxshab<n><nom>+mi<qst><guess>:-5.0:2",
+   "judgment": "wrong",
+   "category": "seg_error"
+  },
+  {
+   "n": 76,
+   "word": "puffak",
+   "count": 75,
+   "top": "puffak<n><nom><guess>:5.0:13",
+   "judgment": "wrong",
+   "category": "typo"
+  },
+  {
+   "n": 77,
+   "word": "oʻlaklarga",
+   "count": 4,
+   "top": "oʻlak<n><pl><dat><guess>:0.6:8",
+   "judgment": "wrong",
+   "category": "fragment_or_unclear"
+  },
+  {
+   "n": 78,
+   "word": "figaro",
+   "count": 637,
+   "top": "figaro<np><nom><guess>:1.9:8",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 79,
+   "word": "kiprikchalar",
+   "count": 1357,
+   "top": "kiprikcha<n><pl><nom><guess>:4.6:24",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 80,
+   "word": "geterogen",
+   "count": 7628,
+   "top": "geterogen<n><nom><guess>:2.4:6",
+   "judgment": "lenient",
+   "category": null
+  },
+  {
+   "n": 81,
+   "word": "ekstropolyatsiya",
+   "count": 722,
+   "top": "ekstropolyatsiya<n><nom><guess>:5.8:9",
+   "judgment": "wrong",
+   "category": "typo"
+  },
+  {
+   "n": 82,
+   "word": "oʻlduruldi",
+   "count": 8,
+   "top": "oʻldurul<v><TD><ifi><p3><pl><guess>:-1.1:8",
+   "judgment": "wrong",
+   "category": "typo"
+  },
+  {
+   "n": 83,
+   "word": "dvijeniya",
+   "count": 3515,
+   "top": "dvijeniya<n><nom><guess>:4.0:3",
+   "judgment": "wrong",
+   "category": "foreign"
+  },
+  {
+   "n": 84,
+   "word": "boʻychan",
+   "count": 1402,
+   "top": "boʻychan<n><nom><guess>:3.0:4",
+   "judgment": "lenient",
+   "category": null
+  },
+  {
+   "n": 85,
+   "word": "volodya",
+   "count": 2213,
+   "top": "volodya<np><nom><guess>:5.5:10",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 86,
+   "word": "embol",
+   "count": 543,
+   "top": "embol<n><nom><guess>:4.2:16",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 87,
+   "word": "salomovning",
+   "count": 191,
+   "top": "salomov<np><gen><guess>:1.1:9",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 88,
+   "word": "karovatiga",
+   "count": 38,
+   "top": "karovat<n><px3sp><dat><guess>:3.9:25",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 89,
+   "word": "qishki",
+   "count": 22955,
+   "top": "qishk<n><px3sp><nom><guess>:1.1:47",
+   "judgment": "wrong",
+   "category": "seg_error"
+  },
+  {
+   "n": 90,
+   "word": "vayngang",
+   "count": 19,
+   "top": "vaynga<np><px2sg><nom><guess>:-4.9:2",
+   "judgment": "wrong",
+   "category": "fragment_or_unclear"
+  },
+  {
+   "n": 91,
+   "word": "markecha-lenincha",
+   "count": 41,
+   "top": "markech<v><TD><prc_impf><guess>:-2.0:3",
+   "judgment": "wrong",
+   "category": "fragment_or_unclear"
+  },
+  {
+   "n": 92,
+   "word": "egadirlar",
+   "count": 13209,
+   "top": "egadirla<v><TD><gpr_fut><guess>:2.5:5",
+   "judgment": "wrong",
+   "category": "seg_error"
+  },
+  {
+   "n": 93,
+   "word": "fayziyeva",
+   "count": 813,
+   "top": "fayziyeva<np><nom><guess>:2.2:5",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 94,
+   "word": "zahirasini",
+   "count": 3860,
+   "top": "zahira<n><px3sp><acc><guess>:4.9:68",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 95,
+   "word": "baxtiqaro",
+   "count": 1891,
+   "top": "baxtiqaro<n><nom><guess>:3.3:16",
+   "judgment": "wrong",
+   "category": "fragment_or_unclear"
+  },
+  {
+   "n": 96,
+   "word": "utishli",
+   "count": 71,
+   "top": "utish<n>+li<post><guess>:4.2:31",
+   "judgment": "wrong",
+   "category": "typo"
+  },
+  {
+   "n": 97,
+   "word": "barkamolligi",
+   "count": 1994,
+   "top": "barkamollik<n><px3sp><nom><guess>:6.2:25",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 98,
+   "word": "kambiy",
+   "count": 3931,
+   "top": "kambiy<n><nom><guess>:4.7:18",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 99,
+   "word": "pskom",
+   "count": 852,
+   "top": "psko<np><px1sg><nom><guess>:-4.2:5",
+   "judgment": "wrong",
+   "category": "seg_error"
+  },
+  {
+   "n": 100,
+   "word": "qolayotgandir",
+   "count": 25,
+   "top": "qolayotgan<n><nom>+e<cop><aor><p3><frm><sg><guess>:-2.0:4",
+   "judgment": "lenient",
+   "category": null
+  },
+  {
+   "n": 101,
+   "word": "muhammadiyor",
+   "count": 578,
+   "top": "muhammadiyor<np><nom><guess>:4.4:5",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 102,
+   "word": "gradusniklar",
+   "count": 14,
+   "top": "gradusnik<n><pl><nom><guess>:5.4:10",
+   "judgment": "strict",
+   "category": null
+  },
+  {
+   "n": 103,
+   "word": "botlik",
+   "count": 34157,
+   "top": "botlik<n><nom><guess>:5.2:11",
+   "judgment": "wrong",
+   "category": "fragment_or_unclear"
+  }
+ ]
+}
