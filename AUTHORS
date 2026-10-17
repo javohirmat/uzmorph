@@ -5,4 +5,5 @@ apertium-uzb (the analyzer this work is based on): https://github.com/apertium/a
 
 uzmorph changes and Python layer (2026):
   Javohir Matniyazov
+  Kattabek Norbaev (https://github.com/kattabeknorbaev)
   (developed with AI coding assistants; native-speaker review of lexicon batches and of the evaluation set)

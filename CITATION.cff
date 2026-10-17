@@ -10,6 +10,8 @@ authors:
   - family-names: Matniyazov
     given-names: Javohir
     email: javohirmatniyazovv@gmail.com
+  - family-names: Norbaev
+    given-names: Kattabek
 references:
   - type: software
     title: apertium-uzb
